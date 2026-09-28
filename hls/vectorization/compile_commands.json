@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "/home/haniel/Projects/alacritas/hls/vectorization",
+    "arguments": [
+      "/bin/clang++",
+      "--gcc-toolchain=/media/haniel/xilinx/Xilinx/2025.2.1/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls",
+      "-hls-syn-headers-dir=/media/haniel/xilinx/Xilinx/2025.2.1/Vitis/common/technology/autopilot",
+      "-fhlstoplevel=vector_sum",
+      "-c",
+      "/home/haniel/Projects/alacritas/hls/vectorization/vector_sum.cpp"
+    ],
+    "file": "/home/haniel/Projects/alacritas/hls/vectorization/vector_sum.cpp"
+  },
+  {
+    "directory": "/home/haniel/Projects/alacritas/hls/vectorization",
+    "arguments": [
+      "/bin/clang++",
+      "--gcc-toolchain=/media/haniel/xilinx/Xilinx/2025.2.1/Vitis/tps/lnx64/gcc-8.3.0",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=/media/haniel/xilinx/Xilinx/2025.2.1/Vitis/include",
+      "-c",
+      "/home/haniel/Projects/alacritas/hls/vectorization/tb_vector_sum.cpp"
+    ],
+    "file": "/home/haniel/Projects/alacritas/hls/vectorization/tb_vector_sum.cpp"
+  }
+]

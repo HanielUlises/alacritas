@@ -1,0 +1,14 @@
+# HLS / Vivado outputs
+build/
+logs/
+.Xil/
+*.log
+*.jou
+*.str
+
+# Vitis IDE workspace metadata
+_ide/
+.ipcache/
+
+# Vitis HLS component work dirs (work_dir in vitis-comp.json)
+hls/vectorization/vectorization/
